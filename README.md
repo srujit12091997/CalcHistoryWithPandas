@@ -102,4 +102,90 @@ except Exception as e:
 
 ---
 
-This documentation provides detailed explanations and examples of the implementation of design patterns, environment variables usage, logging implementation, and exception handling strategies in our calculator application. Each section includes links to the relevant code files for further reference and understanding.
+
+Working Vedio Self:
+
+
+
+## Calculator Application Setup and Usage Instructions
+
+### 1. Installation
+
+#### Prerequisites
+- Python 3.x installed on your system ([Download Python](https://www.python.org/downloads/))
+- pip package manager installed with Python
+
+#### Setup Steps
+1. Clone or download the calculator application from the repository.
+
+   ```bash
+   git clone <repository-url>
+   cd calculator-application
+   ```
+
+2. Set up a virtual environment (optional but recommended).
+   
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment.
+
+   - **Windows:**
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **Unix/Linux/macOS:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. Install dependencies from the `requirements.txt` file.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 2. Configuration
+
+- If your application requires any configuration settings, provide instructions on how to set them up. For example, if you are using environment variables, explain how to create a `.env` file and specify the required variables.
+
+### 3. Usage
+
+1. Run the main script of the calculator application.
+
+   ```bash
+   python main.py
+   ```
+
+2. Follow the prompts or instructions provided by the application to perform calculations.
+
+### 4. Features
+
+- Describe the main features of the calculator application.
+- Provide examples of common use cases.
+
+### 5. Additional Information
+
+- Troubleshooting tips
+- Contact information for support or feedback
+
+### Example Use Case
+
+Suppose you want to calculate the sum of two numbers:
+
+1. Run the calculator application.
+   
+   ```bash
+   python main.py
+   ```
+
+2. Choose the addition operation from the menu.
+
+3. Enter the first number when prompted.
+
+4. Enter the second number when prompted.
+
+5. The application will display the result of the addition operation.
+
+
