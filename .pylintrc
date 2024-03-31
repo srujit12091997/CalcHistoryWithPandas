@@ -1,0 +1,18 @@
+# .pylintrc
+
+[MASTER]
+ignore-patterns=.svn,CVS,.bzr,.hg,.git,__pycache__,venv
+
+[MESSAGES CONTROL]
+disable=
+    invalid-name,
+    missing-docstring,
+    too-few-public-methods,
+    no-self-use,
+    too-many-instance-attributes,
+    too-many-arguments,
+    unused-import,
+    wrong-import-position
+
+[REPORTS]
+output-format=text
