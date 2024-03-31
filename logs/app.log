@@ -1,0 +1,92 @@
+2024-03-30 15:36:18,144 - __main__ - ERROR - An error occurred: No columns to parse from file
+Traceback (most recent call last):
+  File "C:\Users\nissi\advance_calc\midterm_calculator\main.py", line 36, in main
+    calculator = Calculator(history_file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 37, in __init__
+    self.history_df = self.load_history()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 52, in load_history
+    return pd.read_csv(self.history_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2024-03-30 15:38:28,518 - __main__ - ERROR - An error occurred: No columns to parse from file
+Traceback (most recent call last):
+  File "C:\Users\nissi\advance_calc\midterm_calculator\main.py", line 36, in main
+    calculator = Calculator(history_file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 37, in __init__
+    self.history_df = self.load_history()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 60, in load_history
+    df = pd.read_csv(self.history_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2024-03-30 15:40:01,112 - __main__ - ERROR - An error occurred: No columns to parse from file
+Traceback (most recent call last):
+  File "C:\Users\nissi\advance_calc\midterm_calculator\main.py", line 36, in main
+    calculator = Calculator(history_file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 37, in __init__
+    self.history_df = self.load_history()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 60, in load_history
+    df = pd.read_csv(self.history_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2024-03-30 15:42:40,667 - __main__ - ERROR - An error occurred: No strategy set
+Traceback (most recent call last):
+  File "C:\Users\nissi\advance_calc\midterm_calculator\main.py", line 46, in main
+    result = calculator.calculate(a, b)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nissi\advance_calc\midterm_calculator\app\core\calculator.py", line 47, in calculate
+    raise CalculatorError("No strategy set")
+app.core.calculator.CalculatorError: No strategy set
